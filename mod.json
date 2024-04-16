@@ -1,0 +1,42 @@
+{
+	"Name": "UT-Instagib",
+	"Description": "A fast-paced, low-gravity gamemode based off of Unreal Tournament's Instagib gamemode.",
+	"Version": "1.0.0",
+	"LoadPriority": 3,
+	"RequiredOnClient": true,
+	"Scripts": [
+		{
+			"Path": "sh_ut_instagib_precache.gnut",
+			"RunOn": "SERVER && MP",
+			"ServerCallback": {
+				"After": "UTInstagibPrecache"
+			}
+		},
+		{
+			"Path": "weapons/mp_weapon_instagib_chargerifle.nut",
+			"RunOn": "( CLIENT || SERVER ) && MP"
+		},
+		{
+			"Path": "gamemodes/sh_gamemode_instagib.gnut",
+			"RunOn": "( CLIENT || SERVER ) && MP",
+			"ClientCallback": {
+				"Before": "Sh_GamemodeInstagib_Init"
+			},
+			"ServerCallback": {
+				"Before": "Sh_GamemodeInstagib_Init"
+			}
+		},
+		{
+			"Path": "gamemodes/_gamemode_instagib.nut",
+			"RunOn": "SERVER && MP"
+		},
+		{
+			"Path": "gamemodes/cl_gamemode_instagib.gnut",
+			"RunOn": "CLIENT && MP"
+		}
+	],
+
+	"Localisation": [
+		"resource/ut_instagib_localisation_%language%.txt"
+	]
+}

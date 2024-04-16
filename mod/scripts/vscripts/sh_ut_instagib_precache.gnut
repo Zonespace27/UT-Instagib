@@ -1,0 +1,6 @@
+global function UTInstagibPrecache
+
+void function UTInstagibPrecache()
+{
+	PrecacheWeapon( "mp_weapon_instagib_chargerifle" )
+}

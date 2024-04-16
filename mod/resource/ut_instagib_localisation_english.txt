@@ -1,0 +1,18 @@
+"lang"
+{
+	"Language" "english"
+	"Tokens"
+	{	
+		"WPN_INSTAGIB_CHARGERIFLE" "Super Charge Rifle"
+		"WPN_INSTAGIB_CHARGERIFLE_SHORT" "Charge Rifle" 
+		"WPN_INSTAGIB_CHARGERIFLE_DESC" "Fast-firing Charge Rifle that has perfect accuracy at any range"
+		"WPN_INSTAGIB_CHARGERIFLE_LONGDESC" "Fast-firing Charge Rifle that has perfect accuracy at any range."
+
+		"PL_instagib" "Instagib"
+		"PL_instagib_lobby" "Instagib Lobby"
+		"PL_instagib_desc" "Free-for-all with instant-firing Charge Rifles."
+		"PL_instagib_hint" "Free-for-all with instant-firing Charge Rifles."
+		"PL_instagib_abbr" "IG"
+		"GAMEMODE_INSTAGIB" "Instagib"
+	}
+}
