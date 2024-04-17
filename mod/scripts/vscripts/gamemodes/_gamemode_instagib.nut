@@ -10,6 +10,7 @@ void function GamemodeInstagib_Init()
 	ClassicMP_ForceDisableEpilogue(true)
 
 	Riff_ForceTitanAvailability(eTitanAvailability.Never)
+	Riff_ForceBoostAvailability(eBoostAvailability.Disabled)
 
 	AddCallback_OnPlayerRespawned(SetupPlayer)
 	}
